@@ -1,0 +1,19 @@
+{
+  "name": "getset",
+  "repo": "jkroso/getset",
+  "description": "getter setter methods without the boilerplate",
+  "keywords": [
+    "getter",
+    "setter"
+  ],
+  "dependencies": {},
+  "development": {
+    "component/assert": "0.2.0",
+    "visionmedia/mocha": "*",
+    "jkroso/serve": "*"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "getset",
+  "version": "0.1.0",
+  "description": "getter setter methods without the boilerplate",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkroso/getset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkroso/getset/issues"
+  },
+  "keywords": ["getter","setter"],
+  "author": "Jake Rosoman",
+  "license": "MIT",
+  "files": ["index.js"]
+}
