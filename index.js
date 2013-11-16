@@ -1,5 +1,5 @@
 
-module.exports = getset
+module.exports = addSetter
 
 /**
  * create a chainable getter/setter method on `obj`
@@ -10,7 +10,7 @@ module.exports = getset
  * @api public
  */
 
-function getset(obj, prop, def){
+function addSetter(obj, prop, def){
   obj[prop] = function(value){
     if (!arguments.length) return this[prop]
     this[prop] = value

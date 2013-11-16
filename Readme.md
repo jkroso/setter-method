@@ -1,5 +1,5 @@
 
-# getset
+# setter-method
 
   getter setter methods without the boilerplate
 
@@ -7,36 +7,36 @@
 
 _With [packin](//github.com/jkroso/packin) or [component](//github.com/component/component)_
 
-    $ packin add jkroso/getset
+    $ packin add jkroso/setter-method
 
 then in your app:
 
 ```js
-var getset = require('getset')
+var addSetter = require('setter-method')
 ```
 
 ## API
 
-### getset(object, property, default)
+### addSetter(object, property, default)
 
   create a chainable getter/setter method on `obj`
 
 ```js
-var object = {}
+var object = {};
 
 // create methods and default values
-getset(object, 'width', 50)
-getset(object, 'height', 100)
-getset(object, 'color', 'aliceblue')
+addSetter(object, 'width', 50);
+addSetter(object, 'height', 100);
+addSetter(object, 'color', 'aliceblue');
 
 // set values
 object
   .width(1200)
-  .heigth(800)
+  .height(800);
 
 // get values
-object.width() // => 1200
-object.color() // => 'aliceblue'
+object.width(); // => 1200
+object.color(); // => 'aliceblue'
 ```
 
 ## Running the tests

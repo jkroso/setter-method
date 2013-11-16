@@ -1,9 +1,8 @@
 {
-  "name": "getset",
+  "name": "setter-method",
   "version": "0.1.0",
   "description": "getter setter methods without the boilerplate",
   "dependencies": {},
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/jkroso/getset.git"

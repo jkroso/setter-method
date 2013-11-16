@@ -1,5 +1,5 @@
 {
-  "name": "getset",
+  "name": "setter-method",
   "repo": "jkroso/getset",
   "description": "getter setter methods without the boilerplate",
   "keywords": [
@@ -8,8 +8,8 @@
   ],
   "dependencies": {},
   "development": {
-    "component/assert": "0.2.0",
     "visionmedia/mocha": "*",
+    "component/assert": "*",
     "jkroso/serve": "*"
   },
   "scripts": [
